@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contacto </title>
+</head>
+<body>
+
+    <header> 
+        <h1> Tu opinión importa </h1>
+    </header>
+
+    <main>
+
+        <section>
+            <form action="">
+                <fieldset>
+                    <legend> Datos básicos </legend>
+
+                    Nombre(s): <input type="text" placeholder="Cecilia" required><br>
+                    Apodo: <input type="text" placeholder="tacowoman" required><br>
+                    Correo electrónico: <input type="email" placeholder="cc94barranco@gmail.com" required><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend> Lo importante es participar </legend>
+                    <span> Si tienes alguna reseña u opinión sobre lo escrito en este blog, queremos saber más sobre eso, manda tu texto incluso mucho texto para participar en nuestro blog </span><br>
+
+                    Tu reseña: <input type="text" required ><br>
+                    Opinión sobre alguna reseña escrita por mi: <input type="text" required ><br>
+
+                    <button> Ámonos recio </button>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend> Recomendaciones de series o películas basadas en bits</legend>
+                    <span> Si tienes alguna recomendación de series o películas basadas en algun videojuego, queremos saber más sobre eso, cuéntanolos todo </span><br>
+
+                    Nombre de serie o película: <input type="text" required><br>
+                    Donde se puede ver: 
+                    <label for="piraña">
+                        <input id="piraña" type="radio" name="donde-ver" > Página piraña
+                    </label>
+
+                    <label for="max">
+                        <input id="max" type="radio" name="donde-ver" > MAX antes HBO
+                    </label>
+                    
+                    <label for="Amazon-prime">
+                        <input id="Amazon-prime" type="radio" name="donde-ver" > Amazon prime
+                    </label>
+
+                    <label for="Netflix">
+                        <input id="Netflix" type="radio" name="donde-ver" > Netflix
+                    </label>
+
+                    <label for="Otro">
+                        <input id="Otro" type="radio" name="donde-ver" > Otro
+                    </label>
+
+                    <input type="checkbox" required> Acepto términos y condiciones
+                <br>
+                <input type="submit">
+                </fieldset>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
